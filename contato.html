@@ -9,10 +9,21 @@
     </head>
     <body>
         <form id="contact-form">
-            <input name="nome"/>
-            <input name="email"/>
-            <textarea name="mensagem"></textarea>
+            <div class="input-group">
+                <label  for="nome">Nome:</label>
+                <input for="nome" id="nome" type="text" placeholder="Nome" required/>
+            </div>
+            <div>
+                <label  for="email">E-mail:</label>
+                <input for="nome" id="email" type="email" placeholder="abcd@fgh.com" required/>
+
+            </div>
+            <div>
+                <label  for="mensagem">Mensagem:</label>
+                <textarea for="nome" id="mensagem" type="text" placeholder="mensagem" required></textarea>
+            </div>
             <button>Enviar</button>
+            <a href="/first_project/">Voltar</a>
         </form>
     </body>
 </html>
